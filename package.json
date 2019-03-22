@@ -1,0 +1,32 @@
+{
+  "name": "postgresql_recipe_express_app",
+  "version": "1.0.0",
+  "description": "recipe app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcolts2000/postgresql_recipe_express_app.git"
+  },
+  "keywords": [
+    "recipes",
+    "app"
+  ],
+  "author": "Sean Pheneger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wcolts2000/postgresql_recipe_express_app/issues"
+  },
+  "homepage": "https://github.com/wcolts2000/postgresql_recipe_express_app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consolidate": "^0.15.1",
+    "dust": "^0.3.0",
+    "dustjs-helpers": "^1.7.4",
+    "dustjs-linkedin": "^2.7.5",
+    "express": "^4.16.4",
+    "pg": "^7.9.0"
+  }
+}
